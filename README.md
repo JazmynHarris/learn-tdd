@@ -53,7 +53,7 @@ should be placed in `tests/authorService.test.ts`.
 
 Briefly explain a limitation of the tests in `tests/authorSchema.test.ts` in the space below.
 
-
+One limitation of the tests is that it does not check for edge cases in the Author validation. If an author has a death date that occurs before their birth, this case is never checked. Additionally, the tests do not verify real database behavior.
 
 ## Part 3
 
